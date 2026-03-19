@@ -23,7 +23,7 @@ while running == True:
       pass
   elif choice == "3":
     if todo_list:
-      print("\nTodo list:\n")
+      print("\nTodo list:")
       print(", ".join(todo_list) + ".")
     else:
       print("\nYour list is empty!")
